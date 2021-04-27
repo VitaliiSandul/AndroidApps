@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "dz_20210311_android_viewmodel_cars"

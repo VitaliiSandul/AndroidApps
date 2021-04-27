@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "RecyclerViewBinding"
+rootProject.name = "dz_20210329_RecyclerViewBinding"

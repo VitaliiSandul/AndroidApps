@@ -5,23 +5,22 @@
         <variable
             name="stringValue"
             type="String" />
-
         <variable
             name="click"
-            type="com.example.recyclerviewbinding.StringItemClickListener" />
+            type="com.example.dz_20210329_recyclerviewbinding.StringItemClickListener" />
     </data>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="@{() -> click.onClick(stringValue)}">
-        <TextView
 
+        <TextView
             android:text="@{stringValue}"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/stringTextView"
-            android:textSize="20dp"></TextView>
+            android:textSize="40dp"></TextView>
 
     </RelativeLayout>
 </layout>

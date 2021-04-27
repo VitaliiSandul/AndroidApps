@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.example.recyclerviewbinding.StringsViewModel" />
+            type="com.example.dz_20210329_recyclerviewbinding.StringsViewModel" />
     </data>
 
     <RelativeLayout
@@ -16,11 +16,10 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/stringsRecyclerView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:itemCount="10"
-            tools:listitem="@layout/string_item"></androidx.recyclerview.widget.RecyclerView>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/string_item"
+            tools:itemCount="10"></androidx.recyclerview.widget.RecyclerView>
 
     </RelativeLayout>
 </layout>

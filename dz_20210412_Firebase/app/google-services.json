@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "978919732487",
+    "project_id": "fir-lesson-b7e3c",
+    "storage_bucket": "fir-lesson-b7e3c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978919732487:android:61b9627ec63ac5e9a501a2",
+        "android_client_info": {
+          "package_name": "com.example.dz_20210412_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978919732487-m5k6tr6gu54p8dm0agf3jdqffm2qdfmk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMbaR4aKeO7fytUsOyhu6IkqaYc1Di-ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978919732487-m5k6tr6gu54p8dm0agf3jdqffm2qdfmk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

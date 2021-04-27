@@ -8,7 +8,7 @@ android {
     buildToolsVersion "30.0.3"
 
     defaultConfig {
-        applicationId "com.example.recyclerviewbinding"
+        applicationId "com.example.dz_20210329_recyclerviewbinding"
         minSdkVersion 28
         targetSdkVersion 30
         versionCode 1
@@ -30,7 +30,8 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    dataBinding {
+
+    dataBinding{
         enabled = true
     }
 }
